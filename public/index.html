@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cine - Registrar Películas</title>
+    <!-- MDBootstrap CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.10.2/mdb.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1 class="my-4">Registrar Películas</h1>
+
+        <!-- Formulario para agregar una nueva película -->
+        <form id="movie-form" class="mb-4">
+            <div class="mb-3">
+                <label for="pelicula" class="form-label">Película</label>
+                <input type="text" class="form-control" id="pelicula" required>
+            </div>
+            <div class="mb-3">
+                <label for="sala" class="form-label">Sala</label>
+                <input type="text" class="form-control" id="sala" required>
+            </div>
+            <div class="mb-3">
+                <label for="hora" class="form-label">Hora</label>
+                <input type="text" class="form-control" id="hora" required>
+            </div>
+            <div class="mb-3">
+                <label for="fecha" class="form-label">Fecha (D/M/YYYY)</label>
+                <input type="text" class="form-control" id="fecha" required>
+            </div>
+            <div class="mb-3">
+                <label for="asiento" class="form-label">Asiento</label>
+                <input type="text" class="form-control" id="asiento" required>
+            </div>
+            <div class="mb-3">
+                <label for="precio" class="form-label">Precio</label>
+                <input type="text" class="form-control" id="precio" required>
+            </div>
+            <button type="submit" class="btn btn-primary">Agregar Película</button>
+        </form>
+
+        <a href="view.html" class="btn btn-secondary">Ver Películas Agregadas</a>
+    </div>
+
+    <!-- MDBootstrap JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.10.2/mdb.min.js"></script>
+    <!-- Archivo JavaScript personalizado -->
+    <script src="movies.js"></script>
+</body>
+</html>

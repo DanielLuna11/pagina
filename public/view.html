@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cine - Ver Películas</title>
+    <!-- MDBootstrap CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.10.2/mdb.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1 class="my-4">Películas Agregadas</h1>
+
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Película</th>
+                    <th>Sala</th>
+                    <th>Hora</th>
+                    <th>Fecha</th>
+                    <th>Asiento</th>
+                    <th>Precio</th>
+                </tr>
+            </thead>
+            <tbody id="movie-table">
+                <!-- Los datos de las películas serán insertados aquí por JavaScript -->
+            </tbody>
+        </table>
+
+        <a href="index.html" class="btn btn-secondary">Registrar Nueva Película</a>
+    </div>
+
+    <!-- MDBootstrap JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.10.2/mdb.min.js"></script>
+    <!-- Archivo JavaScript personalizado -->
+    <script src="view.js"></script>
+</body>
+</html>
